@@ -1,0 +1,96 @@
+body {
+  background-color: lightgrey;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Layout */
+
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+li {
+  list-style: none;
+  margin: none;
+  padding: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  float: left;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+div label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text {
+  padding: 4.4rem;
+  border-radius: 1rem;
+  background-color: rgba(225, 225, 225, 75%);
+  width: 50vw;
+}
+
+.hero-text > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text div a {
+  display: block;
+  color: #1e6732;
+}
+
+.hero-text div span {
+  color: #1e6732;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+button {
+  background-color: #1e6732;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 4.2rem;
+  margin-top: 2rem;
+}
+
+button:hover,
+button:active {
+  background-color: lightgrey;
+  border: 2px solid #1e6732;
+  color: #1e6732;
+}
+
+input::placeholder {
+  color: #808080;
+  font-weight: 300;
+}
+
+input {
+  border-radius: 1rem;
+  border: 1px solid #adadad;
+  padding: 0.5rem 1rem;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #1e6732;
+  box-shadow: 0 0 10px #1e6732;
+}
